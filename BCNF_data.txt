@@ -1,1 +1,39 @@
 "Data normalized to BCNF " 
+
+Bookings Table (from 2NF table):
+
+BookingID | CustomerID  | FlightID | Date	| Price
+B001	  | C001	| F001	   | 2024-10-12	| 300
+B002	  | C002	| F002	   | 2024-10-13	| 250
+B003	  | C003	| F003	   | 2024-11-01	| 400
+
+Seat Allocations Table (from 2NF table):
+
+BookingID | SeatNumber
+B001	  | 12A
+B001	  | 12B
+B002	  | 15C
+B003	  | 8A
+B003	  | 8B
+B003	  | 8C
+
+Customers Table (from 2NF table):
+
+CustomerID | Customer_Name
+C001	   | Alice Brown
+C002	   | Bob White
+C003	   | Alice Brown
+
+Flights Table (from 2NF table):
+
+FlightID | FlightName
+F001	 | Flight A
+F002	 | Flight B
+F003	 | Flight C
+
+Airlines Table (from 2NF table):
+
+AirlineID | AirlineName
+A001	  | SkyHigh
+A002	  | AirWings
+A003	  | FlyAway

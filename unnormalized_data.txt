@@ -1,1 +1,5 @@
 "Unnormalized data goes to this file" 
+BookingID | CustomerID | Customer_Name | FlightID | FlightName | Date	    | Price | SeatNumbers | AirlineID |	AirlineName
+B001	  | C001       | Alice Brown   | F001	  | Flight A   | 2024-10-12 | 300   | 12A, 12B	  | A001      | SkyHigh
+B002	  | C002       | Bob White     | F002	  | Flight B   | 2024-10-13 | 250   | 15C	  | A002      | AirWings
+B003	  | C003       | Alice Brown   | F003	  | Flight C   | 2024-11-01 | 400   | 8A, 8B, 8C  | A003      | FlyAway

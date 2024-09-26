@@ -1,1 +1,14 @@
 "Data normalized to 3NF " 
+
+Conclusion for 3NF: Upon reviewing each table, we have determined that:
+
+1) None of the tables include transitive dependencies.
+2) Since each non-primary key characteristic depends directly on the table's main key, all tables are already in 3NF.
+3) At this stage, the table structures don't require any modifications. Every table from 2NF complies with 3NF's regulations.
+4) Transitive dependencies, or the inability of non-key attributes to depend on other non-key attributes, are prohibited in the transitive dependency rule (3NF), which requires a table to be       in 2NF. 
+
+Within the current framework:
+
+10 Every characteristic is directly reliant on the primary keys found in each table.
+2) When one non-primary key property indirectly depends on the primary key, there are no infractions.
+3) Because we successfully divided the data in 2NF (by eliminating partial dependencies), the data is already in a state where additional modifications are not required for 3NF.
