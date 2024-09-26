@@ -1,3 +1,4 @@
-Booking_ID | Customer_Name | Customer_Contact | Room_Type | Dates_Booked | Payment_Method
-1          | Monkey D Luffy     | 123456789        | Suite     | Jan 1-3, Jan 5-7 | Credit Card
-2          | Roronoa Zoro       | 987654321        | Standard  | Feb 1-3, Feb 5-8 | Cash
+BookingID  |CustomerID  | Customer_Name | FlightID | FlightName | Date         | Price | SeatNumbers | AirlineID | AirlineName
+B001       |C001        | Alice Brown   | F001     | Flight A   | 20241-10-12  | 300   |12A, 12B     | A001      | SkyHigh
+B002       |C002        | Bob White     | F002     | Flight B   | 20241-10-13  | 250   |15C          | A002      | AirWings
+B003       |C003        | Alice Brown   | F003     | Flight C   | 20241-11-01  | 400   |8A,8B,8C     | A003      | FlyAway
